@@ -218,7 +218,7 @@ export default {
           }
         );
 
-        if (res.meta.status !== 201) {
+        if (res.meta.status !== 200) {
           return this.$message.error("更新商品信息失败");
         }
         this.editDialogVisible = false;
